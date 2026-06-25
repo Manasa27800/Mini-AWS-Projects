@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Infrastructure Demo</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f5f7fa;
+            color:#333;
+        }
+
+        header{
+            background:linear-gradient(135deg,#0f172a,#2563eb);
+            color:white;
+            text-align:center;
+            padding:80px 20px;
+        }
+
+        header h1{
+            font-size:48px;
+            margin-bottom:15px;
+        }
+
+        header p{
+            font-size:20px;
+            opacity:.9;
+        }
+
+        nav{
+            background:white;
+            display:flex;
+            justify-content:center;
+            gap:40px;
+            padding:18px;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#2563eb;
+            font-weight:bold;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:60px 0;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+            margin-top:30px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,.08);
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card h3{
+            color:#2563eb;
+            margin-bottom:15px;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+            margin-top:25px;
+        }
+
+        .skill{
+            background:#2563eb;
+            color:white;
+            padding:10px 18px;
+            border-radius:30px;
+        }
+
+        footer{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:50px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:25px;
+            background:white;
+            color:#2563eb;
+            padding:14px 30px;
+            text-decoration:none;
+            border-radius:6px;
+            font-weight:bold;
+        }
+
+        .btn:hover{
+            background:#e2e8f0;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <h1>Cloud Infrastructure Demo</h1>
+
+    <p>Hosted Successfully on AWS EC2 Ubuntu using Apache Web Server</p>
+
+    <a class="btn" href="#">Learn More</a>
+
+</header>
+
+<nav>
+
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<h2>About This Project</h2>
+
+<p style="margin-top:20px; line-height:1.8;">
+This website demonstrates a successful deployment of a web application on an
+AWS EC2 Ubuntu instance using the Apache Web Server.
+It showcases cloud infrastructure, networking, and Linux administration skills
+commonly used in AWS DevOps environments.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>☁ AWS Cloud</h3>
+<p>
+Provisioned infrastructure using Amazon EC2, VPC,
+Security Groups and Elastic IP.
+</p>
+</div>
+
+<div class="card">
+<h3>🐧 Ubuntu Linux</h3>
+<p>
+Configured Ubuntu Server, managed packages,
+services, permissions and networking.
+</p>
+</div>
+
+<div class="card">
+<h3>🌐 Apache Web Server</h3>
+<p>
+Installed and configured Apache2 to host a responsive
+website accessible over HTTP.
+</p>
+</div>
+
+</div>
+
+<h2 style="margin-top:60px;">Technologies Used</h2>
+
+<div class="skills">
+
+<div class="skill">AWS EC2</div>
+<div class="skill">Ubuntu</div>
+<div class="skill">Apache</div>
+<div class="skill">Linux</div>
+<div class="skill">Networking</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Deployment Successful 🎉</h3>
+
+<p style="margin-top:10px;">
+Powered by Apache | Ubuntu | AWS EC2
+</p>
+
+<p style="margin-top:10px;">
+© 2026 Cloud Infrastructure Demo
+</p>
+
+</footer>
+
+</body>
+</html>
